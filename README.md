@@ -92,7 +92,7 @@ Tabulation
 
 Calculation
 
-![WhatsApp Image 2025-10-15 at 21 07 09_7b71cbfd](https://github.com/user-attachments/assets/74d02307-d37f-474c-8811-2a7f5a45ad49)
+<img width="729" height="1280" alt="image" src="https://github.com/user-attachments/assets/574f00cf-d953-4624-98ee-b5e47837310b" />
 
 
 Frequency Deviation Practical = 2045.45
