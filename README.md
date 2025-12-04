@@ -66,29 +66,43 @@ MODEL GRAPH:
 
 Program
 
+Am=5.5;
+Ac=11;
+fm=454;
+fc=4540;
+fs=454000;
+t=0:1/fs:2/fm;
+m=Am*cos(2*3.14*fm*t);
+subplot(3,1,1);
+plot(t,m);
+c=Ac*cos(2*3.14*fc*t);
+subplot(3,1,2);
+plot(t,c);
+efm=Ac*cos((2*3.14*fc*t) + 4.9*sin(2*3.14*fm*t));
+subplot(3,1,3);
+plot(t,efm);
 
 Output Waveform
 
-
+<img width="1920" height="1200" alt="Screenshot (53)" src="https://github.com/user-attachments/assets/ced04c8a-02ab-4110-98a1-b4e856f211d8" />
 
 Tabulation
-
+<img width="732" height="1198" alt="image" src="https://github.com/user-attachments/assets/1111809b-6d27-4ba8-9a96-7d6832263918" />
 
 
 Calculation
 
+![WhatsApp Image 2025-10-15 at 21 07 09_7b71cbfd](https://github.com/user-attachments/assets/74d02307-d37f-474c-8811-2a7f5a45ad49)
 
 
-Frequency Deviation Practical = 
+Frequency Deviation Practical = 2045.45
 
-Modulation Index Practical	= 
+Modulation Index Practical	= 4.5
 
-Modulation Index Theoretical	=
+Modulation Index Theoretical	=4.8
 
 
 
 RESULT:
 
 Thus, the frequency modulation and demodulation is successfully done and the output is experimentally verified.
-
-
